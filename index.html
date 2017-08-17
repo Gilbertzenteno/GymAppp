@@ -1,0 +1,504 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Rutinas G</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		 <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+
+		<script src="phonegap.js"></script>
+		
+		 <!---- start-smoth-scrolling---->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+		<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!--//End-top-nav-script-->
+	</head>
+	<body>
+		<!-- start-header-->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="#"><img src="images/logo.png" title="GilRoutines" /></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#home" class="scroll">Inicio </a><span> </span></li>
+								<li><a href="#dia1" class="scroll">Dia 1</a></li>
+								<li><a href="#dia2" class="scroll">Dia 2</a></li>
+								<li><a href="#dia3" class="scroll">Dia 3</a><span> </span></li>
+								<li><a href="#dia4" class="scroll">Dia 4</a></li>
+								<li><a href="nutricion.html">Tips de Nutricion</a></li>
+								<li><a href="dietas.html">Dietas</a></li>
+								<div class="clearfix"> </div>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!----banner---->
+			<div class="banner">
+				<!---- banner-info ---->
+				<div class="banner-info text-center">
+					
+					<h1>QUERER ES PODER</h1>
+					<span>Solo hazlo</span>
+					<label> </label>
+					<div class="clearfix"> </div>
+					<!--<a class="bannner-btn" href="#">KNOW MORE</a>-->
+				</div>
+				<!-- //banner-info ---->
+			</div>
+			<!--//banner-->
+
+			<div class="copy-right text-center">
+				<div class="container">
+					<p>Designed by <a href="https://www.facebook.com/GilbertZenteno">Gilberto Zenteno</a></p>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+					</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+
+
+
+			<!-- about -->
+			<div id="dia1" class="about">
+				<div class="about-head text-center">
+					<div class="container">
+						<p align=justify>He realizado la seleccion de rutinas de ejercicios que me han servido de mucho, espero les sirva de la misma manera, sugerencias, comentarios y aportaciones haganmelo saber, gracias</p>
+						<p align=justify>se disenio para ejecutarse por cuatro dias a semana recordando que es importante el descanso para poder aumentar musculo. Como sabras todas las rutinas de volumen estan diseñadas para trabajase solo 3 o 4 veces por semana debido al desgaste de los musculos.</p>
+						<p align=justify>
+						Los ejercicios que veremos son basicos y los trabajaremos con suficiente peso, pero manteniendo buena tecnica y movimiento, debes de escoger un peso que te deje realizar bien las repeticiones que te indica la rutina.</p>
+						<CENTER>
+						<table border="2px"> <!-- Lo cambiaremos por CSS -->
+          						 <tr>
+          						 	<td align=center> Distribucion del entrenamiento </td>
+          						 </tr>
+          						 <tr>
+              						<td><h5>1.- Lunes: Pecho y Triceps</h5></td>
+              					
+          						</tr>
+          						<tr>
+             						<td><h5>2.- Martes: Espalda y Biceps</h5></td>
+         
+          						</tr>
+          						<tr>
+             						 <td><h5>3.- Jueves: Antebrazos y Hombros</h5></td>
+              					
+          						</tr>
+          						<tr>
+             						 <td><h5>4.- Viernes: Piernas</h5></td>
+        
+          						</tr>
+       					    </table></CENTER>
+						<h2>Dia 1 - 7 Ejercicios | Trabajaremos Pecho y Triceps</h2>
+						<span> </span>
+						<p align=justify>Empezaremos a realizar esta rutina con los ejercicios mencionados en el orden establecido con las repeticiones y series indicadas.</p>
+
+					</div>
+				</div>
+				<!-- about-grids -->
+				<div class="about-grids text-center">
+					<div class="container">
+							<CENTER>
+							<table border="2px"> <!-- Lo cambiaremos por CSS -->
+          						 <tr>
+          						 	<td align=center> EJERCICIOS </td>
+          						 	<td align=center> SERIES </td>
+          						 	<td align=center> REPETICIONES </td>
+          						 </tr>
+          						 <tr>
+              						<td><h5><a href="dia1.1.html">1.- Press de Banca</a></h5></td>
+              						<td align=center>4</td>
+              						<td align=center>8</td>
+          						</tr>
+          						<tr>
+             						<td><h5><a href="dia1.2.html">2.- Press de Banca Declinada</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>8</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia1.3.html">3.- Aperturas con Mancuerna</a></h5></td>
+              						<td align=center>2</td>
+              						<td align=center>10</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia1.4.html">4.- Press de Banca Inclinado</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>8-10</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia1.5.html">5.- Incline Dumbbell Flys</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>8</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia1.6.html">6.- Cable Tricep Extension With Rope</a></h5></td>
+              						<td align=center>2</td>
+              						<td align=center>10</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia1.7.html">7.- Single Bench Dip</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>12</td>
+          						</tr>
+          						
+       					    </table>
+       					    <h3>*Demostración de como hacer el ejercicio dando clic en el titulo.</h3>
+       					</center>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<!-- about-grids -->
+			</div>
+			<!--//adia1 -->
+
+		<div class="copy-right text-center">
+				<div class="container">
+					<p>Designed by <a href="https://www.facebook.com/GilbertZenteno">Gilberto Zenteno</a></p>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+					</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+
+
+
+
+			<!--- dia 2---->
+			<div id="dia2" class="about">
+				<div class="about-head text-center">
+					<div class="container">
+						<p align=justify>He realizado la seleccion de rutinas de ejercicios que me han servido de mucho, espero les sirva de la misma manera, sugerencias, comentarios y aportaciones haganmelo saber, gracias</p>
+						
+						<h2>Dia 2 - 8 Ejercicios | Trabajaremos Espalda y Biceps</h2>
+						<span> </span>
+					
+					</div>
+				</div>
+				<!-- about-grids -->
+				<div class="about-grids text-center">
+					<div class="container">
+							<CENTER>
+							<table border="2px"> <!-- Lo cambiaremos por CSS -->
+          						 <tr>
+          						 	<td align=center> EJERCICIOS </td>
+          						 	<td align=center> SERIES </td>
+          						 	<td align=center> REPETICIONES </td>
+          						 </tr>
+          						 <tr>
+              						<td><h5><a href="dia2.1.html">1.- Remo Horizontal con Barra</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>8</td>
+          						</tr>
+          						<tr>
+             						<td><h5><a href="dia2.2.html">2.- Chin Up</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>8</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia2.3.html">3.- Jalón de Pecho</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>8</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia2.4.html">4.- One Arm Dumbbell Row</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>8</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia2.5.html">5.- Seated Cable Row</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>8</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia2.6.html">6.- Cable Preacher Curl</a></h5></td>
+              						<td align=center>4</td>
+              						<td align=center>8</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia2.7.html">7.- Close Grip Standing Barbell Curl</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>8</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia2.8.html">8.- Dumbbell Preacher Curl</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>8</td>
+          						</tr>
+          						
+       					    </table>
+       					</center>
+						
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<!-- about-grids -->
+			</div>
+			<!--//services -->
+
+
+			<!----//contact ----->
+			<!----copy-right---->
+			<div class="copy-right text-center">
+				<div class="container">
+					<p>Designed by <a href="https://www.facebook.com/GilbertZenteno">Gilberto Zenteno</a></p>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+					</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+
+
+<!--- dia 3---->
+			<div id="dia3" class="about">
+				<div class="about-head text-center">
+					<div class="container">
+						<p align=justify>He realizado la seleccion de rutinas de ejercicios que me han servido de mucho, espero les sirva de la misma manera, sugerencias, comentarios y aportaciones haganmelo saber, gracias</p>
+						
+						<h2>Dia 3 - 6 Ejercicios | Trabajaremos Antebrazos y Hombros</h2>
+						<span> </span>
+					
+					</div>
+				</div>
+				<!-- about-grids -->
+				<div class="about-grids text-center">
+					<div class="container">
+							<CENTER>
+							<table border="2px"> <!-- Lo cambiaremos por CSS -->
+          						 <tr>
+          						 	<td align=center> EJERCICIOS </td>
+          						 	<td align=center> SERIES </td>
+          						 	<td align=center> REPETICIONES </td>
+          						 </tr>
+          						 <tr>
+              						<td><h5><a href="dia3.1.html">1.- Dumbbell Wrist Curl Over Bench</a></h5></td>
+              						<td align=center>4</td>
+              						<td align=center>10</td>
+          						</tr>
+          						<tr>
+             						<td><h5><a href="dia3.2.html">2.- Seated Reverse Barbell Wrist Curl</a></h5></td>
+              						<td align=center>4</td>
+              						<td align=center>10</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia3.3.html">3.- Elevaciones laterales de brazos con mancuernas</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>10</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia3.4.html">4.- Press militar o Military Press</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>10</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia3.5.html">5.- Seated Arnold Press</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>10</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia3.6.html">6.- Seated High Barbell Front Raise</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>10</td>
+          						</tr>
+          						
+          						
+       					    </table>
+       					</center>
+						
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<!-- about-grids -->
+			</div>
+			<!--//services -->
+			<!--- dia 4---->
+			
+
+		<div class="copy-right text-center">
+				<div class="container">
+					<p>Designed by <a href="https://www.facebook.com/GilbertZenteno">Gilberto Zenteno</a></p>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+					</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+
+<div id="dia4" class="about">
+				<div class="about-head text-center">
+					<div class="container">
+						<p align=justify>He realizado la seleccion de rutinas de ejercicios que me han servido de mucho, espero les sirva de la misma manera, sugerencias, comentarios y aportaciones haganmelo saber, gracias</p>
+						
+						<h2>Dia 4 - 5 Ejercicios | Trabajaremos Piernas</h2>
+						<span> </span>
+					
+					</div>
+				</div>
+				<!-- about-grids -->
+				<div class="about-grids text-center">
+					<div class="container">
+							<CENTER>
+							<table border="2px"> <!-- Lo cambiaremos por CSS -->
+          						 <tr>
+          						 	<td align=center> EJERCICIOS </td>
+          						 	<td align=center> SERIES </td>
+          						 	<td align=center> REPETICIONES </td>
+          						 </tr>
+          						 <tr>
+              						<td><h5><a href="dia4.1.html">1.- Elevación pantorrillas sentado</a></h5></td>
+              						<td align=center>4</td>
+              						<td align=center>8</td>
+          						</tr>
+          						<tr>
+             						<td><h5><a href="dia4.2.html">2.- Elevación de talones de pie con barra</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>10</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia4.3.html">3.- Sentadillas de velocidad o Speed Squats</a></h5></td>
+              						<td align=center>4</td>
+              						<td align=center>8</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia4.4.html">4.- Leg Curl</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>10</td>
+          						</tr>
+          						<tr>
+             						 <td><h5><a href="dia4.5.html">5.- Leg Extension o Curl de piernas sentado en máquina</a></h5></td>
+              						<td align=center>3</td>
+              						<td align=center>10</td>
+          						</tr>
+          						
+       					    </table>
+       					</center>
+						
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<!-- about-grids -->
+			</div>
+			<!--//adia1 -->
+			<!--//adia1 -->
+
+		<div class="copy-right text-center">
+				<div class="container">
+					<p>Designed by <a href="https://www.facebook.com/GilbertZenteno">Gilberto Zenteno</a></p>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+					</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+
+
+
+			
+	</body>
+</html>
+

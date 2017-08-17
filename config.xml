@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.jappnai"
+        version   = "1.0.0">
+
+    <name>GymApp</name>
+
+    <description>
+        Esta es una aplicacion de Gym, contiene Rutinas y como llevar una alimentacion y vida sana
+    </description>
+
+    <author href="http://www.inusualsoft.com" email="stone_hbk619@live.com">
+        Inusual Soft Team
+    </author>
+
+    <!-- Define the main entry-point to the application -->
+    <content src="index.html" />
+
+    
+
+
+</widget>

@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dietas</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+   		 <!-- Custom Theme files -->
+   		 <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+		<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!--//End-top-nav-script-->
+	</head>
+	<body>
+		<!-- start-header-->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="index.html"><img src="images/logo.png" title="GilRoutines" /></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="index.html" >Inicio </a><span> </span></li>
+								<li><a href="dietas.html" >Dietas </a><span> </span></li>
+								<!--<li><a href="#dia1" class="scroll">Dia 1</a></li>
+								<li><a href="#dia2" class="scroll">Dia 2</a></li>
+								<li><a href="#dia3" class="scroll">Dia 3</a><span> </span></li>
+								<li><a href="#dia4" class="scroll">Dia 4</a></li>
+								<li><a href="#dia4" class="scroll">Consejos Sanos</a></li>
+								<div class="clearfix"> </div>-->
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!--//banner-->
+
+			<div class="copy-right text-center">
+				<div class="container">
+					 <font size="6" color="yellow"> 
+					 	<CENTER>
+          				<img class="img-responsive" src="images/dieta.jpg" alt="Error" width="1000" height="800"> </CENTER>
+ 					</font> 
+					
+					<script type="text/javascript">
+									$(document).ready(function() {
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+					</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+			
+			<!-- about -->
+			<div class="about">
+				<div class="about-head text-center">
+					<div class="container">
+							
+
+							<section id="about-us" class="container main">
+        <div class="row-fluid">
+            <div class="span8">
+                <div class="blog">
+                    <div class="blog-item well">
+                        <a href="dieta1.html"><h2>Dieta para marcar músculos y quemar grasas</h2></a>
+                        <div class="blog-meta clearfix">
+                            <p class="pull-left">
+                              <i class="icon-user"></i> by <a href="#">Gilberto</a> | <i class="icon-folder-close"></i> Categoria <a href="#">Nutrición</a> | <i class="icon-calendar"></i> 21 de enero 2017
+                          </p>
+                      </div>
+                      <p><center><a href="dieta1.html"><img class="img-responsive" src="images/dieta1.jpg" alt="Error" width="400" height="300"></a></center> </p>
+                      <p>Esta dieta para marcar los músculos y quemar grasa esta principalmente basada en alimentos con muchas proteínas y fibra para que cumplas tus propósitos con facilidad.</p>
+                  </div>
+                  <!-- End Blog Item -->
+
+                    <div class="blog-item well">
+                        <a href="dieta2.html"><h2>Sopa para quemar grasas: 7 kilos en 7 días</h2></a>
+                        <div class="blog-meta clearfix">
+                            <p class="pull-left">
+                              <i class="icon-user"></i> by <a href="#">Gilberto</a> | <i class="icon-folder-close"></i> Categoria <a href="#">Nutrición</a> | <i class="icon-calendar"></i> 21 de enero 2017
+                          </p>
+                      </div>
+                      <p><center><a href="dieta2.html"><img class="img-responsive" src="images/dieta2.jpg" alt="Error" width="400" height="300"></a></center> </p>
+                      <p>Receta de la sopa quema grasa, la cual es sumamente fácil de realizar con ingredientes fácil de conseguir y con la cual podrás bajar 7 kilos en 7 días.</p>
+                  </div>
+              <!-- End Blog Item -->
+
+                    <div class="blog-item well">
+                        <a href="dieta3.html"><h2>Todo lo que debes saber acerca de las dietas milagro</h2></a>
+                        <div class="blog-meta clearfix">
+                            <p class="pull-left">
+                              <i class="icon-user"></i> by <a href="#">Gilberto</a> | <i class="icon-folder-close"></i> Categoria <a href="#">Nutrición</a> | <i class="icon-calendar"></i> 21 de enero 2017
+                          </p>
+                      </div>
+                      <p><center><a href="dieta3.html"><img class="img-responsive" src="images/dieta3.jpg" alt="Error" width="400" height="300"></a></center> </p>
+                      <p>Son regímenes alimenticios que tienen el fin de hacerte perder peso de forma rápida y sin esfuerzo. Conoce cuales son las ventajas y desventajas de realizarlas.</p>
+                  </div>
+              <!-- End Blog Item -->
+
+               <div class="blog-item well">
+                        <a href="dieta4.html"><h2>Dietas para desintoxicar el organismo de forma segura y natural</h2></a>
+                        <div class="blog-meta clearfix">
+                            <p class="pull-left">
+                              <i class="icon-user"></i> by <a href="#">Gilberto</a> | <i class="icon-folder-close"></i> Categoria <a href="#">Nutrición</a> | <i class="icon-calendar"></i> 21 de enero 2017
+                          </p>
+                      </div>
+                      <p><center><a href="dieta4.html"><img class="img-responsive" src="images/dieta4.jpg" alt="Error" width="400" height="300"></a></center> </p>
+                      <p>¿Sabías que un cuerpo desintoxicarlo puede ayudarte a quemar grasas de forma más efectiva?. Te ayudamos a desintoxicarlo con cinco excelentes recetas fáciles.</p>
+                  </div>
+              <!-- End Blog Item -->
+
+              <div class="gap"></div>
+
+
+        </div>
+    </div>
+   
+</div>
+
+</section>
+
+					</div>
+				</div>
+				<!-- about-grids -->
+				
+			<!--//adia1 -->
+
+		
+			<!--//adia1 -->
+			<!--//adia1 -->
+
+		<div class="copy-right text-center">
+				<div class="container">
+					<p>Designed by <a href="https://www.facebook.com/GilbertZenteno">Gilberto Zenteno</a></p>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+					</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+
+
+
+			
+	</body>
+</html>
+
